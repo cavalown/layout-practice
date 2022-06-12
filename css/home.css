@@ -1,0 +1,163 @@
+body *,
+body *::after,
+body *::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: Noto Sans TC, Regular;
+}
+
+body .wrap {
+  width: 1366px;
+  margin: 0 auto;
+  border: 2px solid black;
+}
+
+body .wrap h2 {
+  font-size: 32px;
+}
+
+body .wrap h3 {
+  font-size: 24px;
+}
+
+body .wrap p {
+  font-size: 16px;
+}
+
+body .wrap .navbar {
+  margin-top: 24px;
+  margin-bottom: 188px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-left: 142px;
+  padding-right: 139px;
+}
+
+body .wrap .navbar .logo img {
+  width: 218px;
+  height: 40px;
+}
+
+body .wrap .navbar button {
+  width: 128px;
+  height: 40px;
+  background-color: #ff5d50;
+  color: #ffffff;
+  font-size: 16px;
+  border-radius: 22px 22px 22px 22px;
+  border: none;
+}
+
+body .wrap .banner {
+  margin-left: 141px;
+  margin-bottom: 374px;
+}
+
+body .wrap .banner h1 {
+  font-size: 18px;
+  color: #56c4c5;
+}
+
+body .wrap .banner h2 {
+  font-size: 48px;
+  font: normal normal bold 48px/70px Noto Sans TC;
+}
+
+body .wrap .banner p {
+  font-size: 20px;
+}
+
+body .wrap .social-links {
+  margin-bottom: 100px;
+  margin-left: 193px;
+  margin-right: 204px;
+}
+
+body .wrap .social-links h2 {
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+body .wrap .social-links ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+body .wrap .social-links ul img {
+  width: 90px;
+  height: 90px;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 24px;
+}
+
+body .wrap .social-links ul h3 {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+body .wrap .social-links ul .messenger {
+  width: 228px;
+}
+
+body .wrap .social-links ul .line {
+  width: 240px;
+}
+
+body .wrap .social-links ul .instagram {
+  width: 212px;
+}
+
+body .wrap .social-links ul p {
+  color: #747474;
+  text-overflow: ellipsis;
+}
+
+body .wrap .roles h2 {
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+body .wrap .roles p {
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+body .wrap .roles ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .wrap .roles ul li {
+  width: 260px;
+  text-align: center;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+body .wrap .roles ul li img {
+  margin-bottom: 16px;
+}
+
+body .wrap .roles ul li h3 {
+  margin-bottom: 16px;
+  color: #56C4C5;
+}
+
+body .wrap .roles ul li p {
+  margin-bottom: 24px;
+}
+/*# sourceMappingURL=home.css.map */
