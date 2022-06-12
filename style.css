@@ -144,12 +144,15 @@ body {
 
 .products .add {
     background-color: #EAF0ED;
-    /* border: 1px solid #EAF0ED; */
     color: #3F5D45;
     font: normal normal 600 24px/20px PingFang TC;
     text-align: center;
-    padding-top: 18px;
-    height: 65px;
+    padding: 16px 90px 16px 90px;
+}
+
+.products .add:hover {
+    color:#EAF0ED;
+    background-color: #3F5D45;
 }
 
 .pages ul {
