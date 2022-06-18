@@ -8,6 +8,5 @@
 
 
 [圖片資源（chatTalker_images 資料夾）](https://github.com/hexschool/webLayoutTraining1st)
-
 - 先進行 CSS Reset
 - 採用SCSS/SASS
