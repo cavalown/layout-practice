@@ -412,12 +412,12 @@ body .wrap .footer {
   background-image: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/chatTalker_images/home_footer.svg");
   background-repeat: no-repeat;
   background-position: top center;
-  background-size: 100%;
+  background-size: 100% 503px;
   text-align: center;
 }
 
 body .wrap .footer h2 {
-  padding-top: 260px;
+  padding-top: 300px;
   margin-bottom: 28px;
   line-height: 46px;
 }
