@@ -7,56 +7,59 @@ body *::after {
 }
 
 body .wrap {
-  background-image: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/chatTalker_images/home.svg"), url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/chatTalker_images/bg_home.svg"), url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/chatTalker_images/ball01.svg"), url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/chatTalker_images/ball02.svg"), url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/chatTalker_images/ball03.svg");
-  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
-  background-size: 532px 534px, 850px 768px, 360px 360px, 310px 310px, 150px 150px;
-  background-position: 72vw 118px, right top, -222px 589px, right 1350px, center top;
-}
-
-body .wrap .container {
-  max-width: 1366px;
   margin: 0 auto;
-  padding-top: 24px;
 }
 
-body .wrap .container h2 {
+body .wrap h2 {
   font-size: 32px;
+  line-height: 46px;
 }
 
-body .wrap .container h3 {
+body .wrap h3 {
   font-size: 24px;
+  line-height: 35px;
 }
 
-body .wrap .container h4 {
+body .wrap h4 {
   font-size: 18px;
 }
 
-body .wrap .container h5 {
+body .wrap h5 {
   font-size: 16px;
 }
 
-body .wrap .container p {
+body .wrap p {
   font-size: 16px;
+  line-height: 24px;
 }
 
-body .wrap .container .navbar {
-  margin-bottom: 188px;
+body .wrap .content {
+  max-width: 1088px;
+  margin: 0 auto;
+}
+
+body .wrap .content .container {
+  margin: 0 auto;
+}
+
+body .wrap .content .navbar {
+  height: 88px;
+  margin: 0 auto;
+  padding-top: 24px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding-left: 142px;
-  padding-right: 139px;
 }
 
-body .wrap .container .navbar .logo img {
+body .wrap .content .navbar .logo img {
   width: 218px;
   height: 40px;
 }
 
-body .wrap .container .navbar button {
+body .wrap .content .navbar button {
   width: 128px;
   height: 40px;
   color: #ffffff;
@@ -66,37 +69,44 @@ body .wrap .container .navbar button {
   background-color: #ff5d50;
 }
 
-body .wrap .container .banner {
-  margin-left: 141px;
-  margin-bottom: 374px;
+body .wrap .content .banner {
+  height: 534px;
+  margin: 0 auto;
+  margin-bottom: 217px;
 }
 
-body .wrap .container .banner h1 {
+body .wrap .content .banner h1 {
+  margin-top: 158px;
+  margin-bottom: 8px;
   font-size: 18px;
+  line-height: 26px;
   color: #56c4c5;
 }
 
-body .wrap .container .banner h2 {
+body .wrap .content .banner h2 {
   font-size: 48px;
-  font: normal normal bold 48px/70px Noto Sans TC;
+  line-height: 70px;
+  font-weight: bold;
 }
 
-body .wrap .container .banner p {
+body .wrap .content .banner p {
+  margin-top: 8px;
   font-size: 20px;
+  line-height: 29px;
 }
 
-body .wrap .container .social-links {
+body .wrap .content .social-links {
+  height: 315px;
+  margin: 0 auto;
   margin-bottom: 100px;
-  margin-left: 193px;
-  margin-right: 204px;
 }
 
-body .wrap .container .social-links h2 {
+body .wrap .content .social-links h2 {
   text-align: center;
   margin-bottom: 48px;
 }
 
-body .wrap .container .social-links ul {
+body .wrap .content .social-links ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -105,7 +115,11 @@ body .wrap .container .social-links ul {
           justify-content: space-evenly;
 }
 
-body .wrap .container .social-links ul img {
+body .wrap .content .social-links ul li {
+  text-align: center;
+}
+
+body .wrap .content .social-links ul li img {
   width: 90px;
   height: 90px;
   display: block;
@@ -113,76 +127,78 @@ body .wrap .container .social-links ul img {
   margin-bottom: 24px;
 }
 
-body .wrap .container .social-links ul h3 {
+body .wrap .content .social-links ul li h3 {
   text-align: center;
   margin-bottom: 24px;
 }
 
-body .wrap .container .social-links ul .messenger {
+body .wrap .content .social-links ul li .messenger {
   width: 228px;
 }
 
-body .wrap .container .social-links ul .line {
+body .wrap .content .social-links ul li .line {
   width: 240px;
 }
 
-body .wrap .container .social-links ul .instagram {
+body .wrap .content .social-links ul li .instagram {
   width: 212px;
 }
 
-body .wrap .container .social-links ul p {
+body .wrap .content .social-links ul li p {
   color: #747474;
   text-overflow: ellipsis;
 }
 
-body .wrap .container .roles {
+body .wrap .content .roles {
+  height: 527px;
+  margin: 0 auto;
   margin-bottom: 100px;
 }
 
-body .wrap .container .roles h2 {
+body .wrap .content .roles h2 {
   text-align: center;
   margin-bottom: 16px;
 }
 
-body .wrap .container .roles p {
+body .wrap .content .roles p {
   font-size: 20px;
+  line-height: 29px;
   text-align: center;
   margin-bottom: 48px;
 }
 
-body .wrap .container .roles ul {
+body .wrap .content .roles ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
-body .wrap .container .roles ul li .round-square {
+body .wrap .content .roles ul li .round-square {
   width: 260px;
   height: 388px;
   border-radius: 12px;
-  margin-left: 8px;
-  margin-right: 8px;
+  gap: 8px;
   -webkit-box-shadow: 0px 2px 10px #00000014;
           box-shadow: 0px 2px 10px #00000014;
   padding-bottom: 24px;
 }
 
-body .wrap .container .roles ul li .round-square img {
+body .wrap .content .roles ul li .round-square img {
   margin-bottom: 16px;
   border-radius: 12px 12px 0px 0px;
 }
 
-body .wrap .container .roles ul li .round-square h5 {
+body .wrap .content .roles ul li .round-square h5 {
   margin-bottom: 16px;
   line-height: 24px;
   color: #56c4c5;
   text-align: center;
 }
 
-body .wrap .container .roles ul li .round-square p {
+body .wrap .content .roles ul li .round-square p {
   width: 228px;
   font-size: 16px;
   line-height: 24px;
@@ -190,20 +206,20 @@ body .wrap .container .roles ul li .round-square p {
   margin: 0 auto;
 }
 
-body .wrap .container .products {
+body .wrap .content .products {
+  height: 588px;
+  margin: 0 auto;
   margin-bottom: 100px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
-body .wrap .container .products ul {
-  width: 560px;
-  margin-left: 139px;
-  margin-right: 137px;
+body .wrap .content .products ul {
+  width: 507px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -214,19 +230,18 @@ body .wrap .container .products ul {
       flex-wrap: wrap;
 }
 
-body .wrap .container .products ul li {
+body .wrap .content .products ul li {
   width: 230px;
   height: 280px;
   margin-bottom: 28px;
-  margin-right: 47px;
-  background: #ffffff 0% 0% no-repeat padding-box;
+  background: #ffffff;
   -webkit-box-shadow: 0px 2px 10px #00000014;
           box-shadow: 0px 2px 10px #00000014;
   border-radius: 12px;
   text-align: left;
 }
 
-body .wrap .container .products ul li .round-circle {
+body .wrap .content .products ul li .round-circle {
   margin-top: 32px;
   margin-bottom: 24px;
   margin-left: 32px;
@@ -246,38 +261,39 @@ body .wrap .container .products ul li .round-circle {
           align-items: center;
 }
 
-body .wrap .container .products ul li h4 {
+body .wrap .content .products ul li h4 {
   margin-bottom: 16px;
   margin-left: 32px;
   font: normal normal bold 18px/26px Noto Sans TC;
 }
 
-body .wrap .container .products ul li p {
+body .wrap .content .products ul li p {
   margin-left: 32px;
   width: 166px;
   text-overflow: ellipsis;
   line-height: 24px;
 }
 
-body .wrap .container .products .product-info {
+body .wrap .content .products .product-info {
   margin: auto 0;
 }
 
-body .wrap .container .products .product-info h2 {
+body .wrap .content .products .product-info h2 {
   width: 256px;
   text-overflow: ellipsis;
   line-height: 46px;
   margin-bottom: 16px;
 }
 
-body .wrap .container .products .product-info p {
+body .wrap .content .products .product-info p {
   font-size: 18px;
-  margin-bottom: 24px;
+  line-height: 26px;
 }
 
-body .wrap .container .products .product-info button {
+body .wrap .content .products .product-info button {
   width: 136px;
   height: 49px;
+  margin-top: 24px;
   color: #ffffff;
   font-size: 18px;
   border-radius: 27px;
@@ -285,17 +301,19 @@ body .wrap .container .products .product-info button {
   background-color: #56c4c5;
 }
 
-body .wrap .container .ranks {
-  margin-bottom: 134px;
+body .wrap .content .ranks {
+  height: 432px;
+  margin: 0 auto;
+  margin-bottom: 100px;
 }
 
-body .wrap .container .ranks h2 {
+body .wrap .content .ranks h2 {
   text-align: center;
   margin-bottom: 104px;
 }
 
-body .wrap .container .ranks ul {
-  width: 1088px;
+body .wrap .content .ranks ul {
+  width: 1068px;
   margin: 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -305,7 +323,7 @@ body .wrap .container .ranks ul {
           justify-content: space-between;
 }
 
-body .wrap .container .ranks ul li {
+body .wrap .content .ranks ul li {
   width: 352px;
   height: 248px;
   -webkit-box-shadow: 0px 2px 10px #00000014;
@@ -313,7 +331,7 @@ body .wrap .container .ranks ul li {
   position: relative;
 }
 
-body .wrap .container .ranks ul li .user-image {
+body .wrap .content .ranks ul li .user-image {
   width: 80px;
   height: 80px;
   border-radius: 50%;
@@ -324,7 +342,7 @@ body .wrap .container .ranks ul li .user-image {
   left: 35px;
 }
 
-body .wrap .container .ranks ul li p {
+body .wrap .content .ranks ul li p {
   margin: 0 auto;
   margin-top: 48px;
   line-height: 24px;
@@ -332,21 +350,21 @@ body .wrap .container .ranks ul li p {
   text-overflow: ellipsis;
 }
 
-body .wrap .container .ranks ul li hr {
+body .wrap .content .ranks ul li hr {
   width: 288px;
   border: 1px solid #dddddd;
   margin-top: 24px;
   margin-bottom: 24px;
 }
 
-body .wrap .container .ranks ul li h5 {
+body .wrap .content .ranks ul li h5 {
   line-height: 24px;
   font-weight: bold;
   margin-left: 32px;
   margin-bottom: 8px;
 }
 
-body .wrap .container .ranks ul li .position {
+body .wrap .content .ranks ul li .position {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -357,14 +375,14 @@ body .wrap .container .ranks ul li .position {
   margin: 0 auto;
 }
 
-body .wrap .container .ranks ul li .position h5 {
+body .wrap .content .ranks ul li .position h5 {
   font-size: 16px;
   line-height: 24px;
   margin-left: 0;
   margin-bottom: 0;
 }
 
-body .wrap .container .ranks ul li .position .rank-star {
+body .wrap .content .ranks ul li .position .rank-star {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -373,26 +391,28 @@ body .wrap .container .ranks ul li .position .rank-star {
           align-items: center;
 }
 
-body .wrap .container .ranks ul li .position .rank-star img {
+body .wrap .content .ranks ul li .position .rank-star img {
   width: 16px;
   height: 16px;
   margin-left: 8px;
 }
 
-body .wrap .container .footer {
+body .wrap .footer {
   height: 503px;
   background-image: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/chatTalker_images/home_footer.svg");
   background-repeat: no-repeat;
+  background-position: top center;
+  background-size: 100%;
   text-align: center;
 }
 
-body .wrap .container .footer h2 {
+body .wrap .footer h2 {
   padding-top: 260px;
   margin-bottom: 28px;
   line-height: 46px;
 }
 
-body .wrap .container .footer button {
+body .wrap .footer button {
   width: 136px;
   height: 49px;
   color: #ffffff;
@@ -402,7 +422,7 @@ body .wrap .container .footer button {
   background-color: #56c4c5;
 }
 
-body .wrap .container .copy-right {
+body .wrap .copy-right {
   height: 56px;
   background-color: #f5f5f5;
   display: -webkit-box;
@@ -414,9 +434,10 @@ body .wrap .container .copy-right {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  text-align: center;
 }
 
-body .wrap .container .copy-right p {
+body .wrap .copy-right p {
   color: #221e1f;
   line-height: 24px;
 }
